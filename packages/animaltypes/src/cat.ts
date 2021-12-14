@@ -2,5 +2,5 @@ export interface Cat {
     name: string;
     breed: string;
     color?: string;
-    meow(): Number;
+    meow(): void;
 }
