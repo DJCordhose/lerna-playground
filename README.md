@@ -10,3 +10,6 @@ Playground for a lerna mono repo
 1. `yarn add typescript -D`  
 1. `npx tsc --init`
 1. https://aka.ms/tsconfig.json
+
+## Publishing
+* https://www.npmjs.com/package/zeigermann-animaltypes

@@ -1,0 +1,23 @@
+{
+  "name": "zeigermann-animaltypes",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "TypeScript definitions of animals",
+  "main": "",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "prepublish": "yarn clean && yarn build",
+    "clean": "rm -rf dist"
+  },
+  "source": "src/index.ts",
+  "files": [
+    "/dist",
+    "package.json"
+  ]
+
+}

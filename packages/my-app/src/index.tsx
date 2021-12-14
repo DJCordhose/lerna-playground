@@ -6,6 +6,21 @@ import { store } from './app/store';
 import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 
+import {Cat, Dog} from 'zeigermann-animaltypes';
+
+const cat: Cat = {
+  name: 'Fluffy',
+  breed: 'Tabby',
+  color: 'white',
+  meow: () => {
+    console.log('meow');
+    // return 'meow';
+  }
+};
+
+console.log(cat.meow)
+
+
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>

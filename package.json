@@ -6,5 +6,13 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "lerna:bootstrap": "lerna bootstrap",
+    "lerna:link": "lerna link --force-local",
+    "lerna:build": "lerna run build",
+    "lerna:test": "lerna run test:ci",
+    "lerna:clean": "lerna clean",
+    "lerna:publish": "lerna publish"
+  }
 }
