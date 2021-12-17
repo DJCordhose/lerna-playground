@@ -6,7 +6,7 @@ import { store } from './app/store';
 import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 
-import {Cat, Dog} from 'zeigermann-animaltypes';
+import {Cat, Dog, Bird} from 'zeigermann-animaltypes';
 
 const cat: Cat = {
   name: 'Fluffy',

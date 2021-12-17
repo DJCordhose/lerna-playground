@@ -1,3 +1,6 @@
+/**
+ * @field {string} name
+ */
 export interface Dog {
     name: string;
     breed: string;
