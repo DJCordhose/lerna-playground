@@ -18,6 +18,14 @@ const cat: Cat = {
   }
 };
 
+const dog: Dog = {
+  name: 'Fido',
+  breed: 'Labrador',
+  woof: () => {
+    console.log('bark');
+  }
+}
+
 console.log(cat.meow)
 
 
