@@ -1,6 +1,6 @@
 {
   "name": "zeigermann-animaltypes",
-  "version": "0.0.2",
+  "version": "0.1.0-alpha.0",
   "license": "MIT",
   "description": "TypeScript definitions of animals",
   "main": "",
